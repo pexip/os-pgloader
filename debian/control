@@ -1,8 +1,9 @@
 Source: pgloader
 Section: database
 Priority: optional
-Maintainer: Dimitri Fontaine <dim@tapoueh.org>
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Uploaders:
+ Dimitri Fontaine <dim@tapoueh.org>,
  Christoph Berg <myon@debian.org>,
 Build-Depends:
  buildapp (>= 1.5),
@@ -51,18 +52,19 @@ Build-Depends:
  gawk,
  help2man,
  libsqlite3-dev,
- postgresql-15-ip4r <!nocheck> | postgresql-ip4r <!nocheck>,
+ postgresql-17-ip4r <!nocheck> | postgresql-ip4r <!nocheck>,
  python3-sphinx,
  python3-sphinx-rtd-theme,
  sbcl (>= 1.1.13),
  tzdata,
-Standards-Version: 4.6.0
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
 Homepage: https://github.com/dimitri/pgloader
-Vcs-Git: https://github.com/dimitri/pgloader.git
-Vcs-Browser: https://github.com/dimitri/pgloader
+Vcs-Git: https://salsa.debian.org/postgresql/pgloader.git
+Vcs-Browser: https://salsa.debian.org/postgresql/pgloader
 
 Package: pgloader
-Architecture: any
+Architecture: amd64 arm64 ppc64el ppc64
 Depends:
  freetds-dev,
  ${misc:Depends},
