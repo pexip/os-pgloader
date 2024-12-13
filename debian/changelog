@@ -1,3 +1,9 @@
+pgloader (3.6.9-1+pexip24u1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Fri, 13 Dec 2024 11:54:41 +0000
+
 pgloader (3.6.9-1) unstable; urgency=medium
 
   * New upstream version.

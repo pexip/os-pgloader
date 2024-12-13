@@ -1,8 +1,9 @@
 Source: pgloader
 Section: database
 Priority: optional
-Maintainer: Dimitri Fontaine <dim@tapoueh.org>
-Uploaders:
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Dimitri Fontaine <dim@tapoueh.org>
+XSBC-Pexip-Original-Uploaders:
  Christoph Berg <myon@debian.org>,
 Build-Depends:
  buildapp (>= 1.5),
@@ -60,6 +61,7 @@ Standards-Version: 4.6.0
 Homepage: https://github.com/dimitri/pgloader
 Vcs-Git: https://github.com/dimitri/pgloader.git
 Vcs-Browser: https://github.com/dimitri/pgloader
+XS-Pexip-Upstream: http://deb.debian.org/debian/ bookworm
 
 Package: pgloader
 Architecture: any
